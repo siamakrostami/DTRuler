@@ -52,6 +52,11 @@ class ViewController: UIViewController {
       return UIColor(red:0.47, green:0.30, blue:0.51, alpha:1.00)
     }
     
+    var font : UIFont{
+        return UIFont(name: "FONT_NAME", size: 17) ?? UIFont.systemFont(ofSize: 18, weight: .bold) //UIFont(name: "Font_Name", size: 17)
+        
+    }
+    
   }
 
 }
