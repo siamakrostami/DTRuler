@@ -54,7 +54,6 @@ class ViewController: UIViewController {
     
     var font : UIFont{
         return UIFont(name: "FONT_NAME", size: 17) ?? UIFont.systemFont(ofSize: 18, weight: .bold) //UIFont(name: "Font_Name", size: 17)
-        
     }
     
   }
